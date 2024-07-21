@@ -1,12 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import {Header ,SubHeader}from './Components/Header/header'
 
 function App() {
   return (
     <div className="App">
-      <header>
-        <h1>Pikachu</h1>
-        </header>
+      <Header/>
+      <SubHeader/>
     </div>
   );
 }
